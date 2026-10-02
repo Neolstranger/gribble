@@ -1,0 +1,531 @@
+ 
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #239e87;
+            padding: 0 7%;
+            box-sizing: border-box;
+
+        }
+            nav{
+                padding: 0 25px;
+                font-size: 20px;
+                nav ul{
+                    gap: 20px;
+                }
+                nav a{
+                    gap: 20px;
+                    font-size: 20px;
+                }
+            }
+        nav ul {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            list-style: none;
+            color: #b1eee8;
+            font-size: 16px;
+        }
+
+        nav li {
+            color: white;
+            font-size: 16px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        nav li::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 0;
+            height: 2px;
+            background-color: gold;
+            transition: width 0.25s ease;
+        }
+
+        nav li:hover::after {
+            width: 100%
+        }
+
+        nav img {
+            height: 25px;
+            width: 100px;
+        }
+
+        body {
+            font-family: Helvetica, Helvetica Bold;
+            padding: 0;
+            margin: 0;
+        }
+
+        .weep {
+            background-color: #239e87;
+            height: 700px;
+            width: 100%;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 7%;
+            gap: 50px;
+            box-sizing: border-box;
+            text-emphasis: none;
+        }
+
+
+        .weep img {
+            width: 100%;
+            height: 700px;
+            display: block;
+        }
+
+        .weep button {
+            width: 45%;
+            height: 75px;
+            border: none;
+            background-color: #2b333b;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .weep input {
+            width: 45%;
+            height: 75px;
+            padding: 0 20px;
+            border: none;
+            outline: none;
+            color: #2b333b;
+            font-size: 18px;
+        }
+
+        .oldman {
+            height: 300px;
+            background-color: white;
+            display: flex;
+            border: 0.2px solid;
+            border-color: #ddd;
+            border-radius: 7px;
+            padding: 40px 30px;
+            flex: 1;
+            gap: 30px;
+            box-sizing: border-box;
+        }
+        .oldwoman{
+            width: 590px;
+            border: 2px solid #eff0f3;
+            height: 510px;
+            object-fit: contain;
+            text-align: left;
+            box-sizing: border-box;    
+        }
+        footer{
+            height: 400px;
+            width: 100%;
+            background-color: #2b333b;
+            padding: 1px 70px;
+            box-sizing: border-box;
+            gap: 300px;
+        }
+        .footer-top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .footer-right  i{
+            color: black;
+            gap: 20px;
+             border:15px #c4ccd4 solid;
+            border-radius: 50%;
+            background-color: #c4ccd4;
+            color: #2b333b;
+            
+        }
+        footer li{
+            text-decoration: none;
+            color: #c4ccd4;
+            list-style: none;
+            text-align: left;
+             
+        }
+        .footer-left a{
+            text-decoration: none;
+            color: #c4ccd4;
+        }
+        footer a:hover{
+            color: white;
+        }
+        footer h3{
+            color: white;
+             text-align: left;
+             padding-left: 40px;
+             box-sizing: border-box;
+        }
+        .footer-left{
+              display: flex;
+            flex-direction: row;
+            gap: 30px;
+            
+           
+        }
+        footer hr{
+            background-color: #414d59;
+        }  @media screen and(max-width:767px){
+             
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #239e87;
+            padding: 0 7%;
+            box-sizing: border-box;
+
+        }
+            nav{
+                padding: 0 25px;
+                font-size: 20px;
+                nav ul{
+                    gap: 20px;
+                }
+                nav a{
+                    gap: 20px;
+                    font-size: 20px;
+                }
+            }
+        nav ul {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            list-style: none;
+            color: #b1eee8;
+            font-size: 16px;
+        }
+
+        nav li {
+            color: white;
+            font-size: 16px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        nav li::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 0;
+            height: 2px;
+            background-color: gold;
+            transition: width 0.25s ease;
+        }
+
+        nav li:hover::after {
+            width: 100%
+        }
+
+        nav img {
+            height: 25px;
+            width: 100px;
+        }
+
+        body {
+            font-family: Helvetica, Helvetica Bold;
+            padding: 0;
+            margin: 0;
+        }
+
+        .weep {
+            background-color: #239e87;
+            height: 700px;
+            width: 100%;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 7%;
+            gap: 50px;
+            box-sizing: border-box;
+            text-emphasis: none;
+        }
+
+
+        .weep img {
+            width: 100%;
+            height: 700px;
+            display: block;
+        }
+
+        .weep button {
+            width: 45%;
+            height: 75px;
+            border: none;
+            background-color: #2b333b;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .weep input {
+            width: 45%;
+            height: 75px;
+            padding: 0 20px;
+            border: none;
+            outline: none;
+            color: #2b333b;
+            font-size: 18px;
+        }
+
+        .oldman {
+            height: 300px;
+            background-color: white;
+            display: flex;
+            border: 0.2px solid;
+            border-color: #ddd;
+            border-radius: 7px;
+            padding: 40px 30px;
+            flex: 1;
+            gap: 30px;
+            box-sizing: border-box;
+        }
+        .oldwoman{
+            width: 590px;
+            border: 2px solid #eff0f3;
+            height: 510px;
+            object-fit: contain;
+            text-align: left;
+            box-sizing: border-box;    
+        }
+        footer{
+            height: 400px;
+            width: 100%;
+            background-color: #2b333b;
+            padding: 1px 70px;
+            box-sizing: border-box;
+            gap: 300px;
+        }
+        .footer-top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .footer-right  i{
+            color: black;
+            gap: 20px;
+             border:15px #c4ccd4 solid;
+            border-radius: 50%;
+            background-color: #c4ccd4;
+            color: #2b333b;
+            
+        }
+        footer li{
+            text-decoration: none;
+            color: #c4ccd4;
+            list-style: none;
+            text-align: left;
+             
+        }
+        .footer-left a{
+            text-decoration: none;
+            color: #c4ccd4;
+        }
+        footer a:hover{
+            color: white;
+        }
+        footer h3{
+            color: white;
+             text-align: left;
+             padding-left: 40px;
+             box-sizing: border-box;
+        }
+        .footer-left{
+              display: flex;
+            flex-direction: row;
+            gap: 30px;
+            
+           
+        }
+        footer hr{
+            background-color: #414d59;
+        }  
+        }
+        @media screen and(min-width:1024px){
+             
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #239e87;
+            padding: 0 7%;
+            box-sizing: border-box;
+
+        }
+            nav{
+                padding: 0 25px;
+                font-size: 20px;
+                nav ul{
+                    gap: 20px;
+                }
+                nav a{
+                    gap: 20px;
+                    font-size: 20px;
+                }
+            }
+        nav ul {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            list-style: none;
+            color: #b1eee8;
+            font-size: 16px;
+        }
+
+        nav li {
+            color: white;
+            font-size: 16px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        nav li::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -8px;
+            width: 0;
+            height: 2px;
+            background-color: gold;
+            transition: width 0.25s ease;
+        }
+
+        nav li:hover::after {
+            width: 100%
+        }
+
+        nav img {
+            height: 25px;
+            width: 100px;
+        }
+
+        body {
+            font-family: Helvetica, Helvetica Bold;
+            padding: 0;
+            margin: 0;
+        }
+
+        .weep {
+            background-color: #239e87;
+            height: 700px;
+            width: 100%;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px 7%;
+            gap: 50px;
+            box-sizing: border-box;
+            text-emphasis: none;
+        }
+
+
+        .weep img {
+            width: 100%;
+            height: 700px;
+            display: block;
+        }
+
+        .weep button {
+            width: 45%;
+            height: 75px;
+            border: none;
+            background-color: #2b333b;
+            color: white;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        .weep input {
+            width: 45%;
+            height: 75px;
+            padding: 0 20px;
+            border: none;
+            outline: none;
+            color: #2b333b;
+            font-size: 18px;
+        }
+
+        .oldman {
+            height: 300px;
+            background-color: white;
+            display: flex;
+            border: 0.2px solid;
+            border-color: #ddd;
+            border-radius: 7px;
+            padding: 40px 30px;
+            flex: 1;
+            gap: 30px;
+            box-sizing: border-box;
+        }
+        .oldwoman{
+            width: 590px;
+            border: 2px solid #eff0f3;
+            height: 510px;
+            object-fit: contain;
+            text-align: left;
+            box-sizing: border-box;    
+        }
+        footer{
+            height: 400px;
+            width: 100%;
+            background-color: #2b333b;
+            padding: 1px 70px;
+            box-sizing: border-box;
+            gap: 300px;
+        }
+        .footer-top{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .footer-right  i{
+            color: black;
+            gap: 20px;
+             border:15px #c4ccd4 solid;
+            border-radius: 50%;
+            background-color: #c4ccd4;
+            color: #2b333b;
+            
+        }
+        footer li{
+            text-decoration: none;
+            color: #c4ccd4;
+            list-style: none;
+            text-align: left;
+             
+        }
+        .footer-left a{
+            text-decoration: none;
+            color: #c4ccd4;
+        }
+        footer a:hover{
+            color: white;
+        }
+        footer h3{
+            color: white;
+             text-align: left;
+             padding-left: 40px;
+             box-sizing: border-box;
+        }
+        .footer-left{
+              display: flex;
+            flex-direction: row;
+            gap: 30px;
+            
+           
+        }
+        footer hr{
+            background-color: #414d59;
+        }  
+        }
